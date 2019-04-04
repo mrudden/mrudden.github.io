@@ -6,6 +6,7 @@ body {
   position: relative;
   display: inline-block;
   font-family: Courier, monospace;
+  font-size: 18px;
   color: #FFF;
 }
 
@@ -16,7 +17,7 @@ body {
 .last-line::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 18;
   right: -15px;
   /* Remove display: inline-block if not required to be on the same line as text etc */
   display: inline-block;
@@ -24,7 +25,7 @@ body {
   vertical-align: top;
   width: 10px;
   /* Set height to the line height of .text */
-  height: 12px;
+  height: 18px;
   /* 
   Animation paramaters:
   blink = animation-name, 
