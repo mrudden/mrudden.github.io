@@ -3,9 +3,10 @@ body {
 }
 
 .text {
+  color: #FFF;
   font-family: Courier, monospace;
   font-size: 18px;
-  color: #FFF;
+  line-height: 18px;
 }
 
 .terminal {
