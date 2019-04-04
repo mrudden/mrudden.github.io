@@ -2,14 +2,14 @@ body {
   background: #282828;
 }
 
-text {
+.text {
   position: relative;
   display: inline-block;
   font-family: Courier, monospace;
   color: #FFF;
 }
 
-status-online {
+.status-online {
   color: #33FF33;
 }
 
