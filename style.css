@@ -3,14 +3,13 @@ body {
 }
 
 .text {
-  position: relative;
-  /*display: inline-block;*/
   font-family: Courier, monospace;
   font-size: 18px;
   color: #FFF;
 }
 
 .terminal {
+  position: relative;
   display: inline-block;
 }
 
